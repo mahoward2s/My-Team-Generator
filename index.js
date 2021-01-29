@@ -7,7 +7,7 @@ const intern = require('./lib/Intern');
 
 
 //Prompt user for manager information
-const managerData = () =>
+function managerData(){
     inquirer.prompt([
         {
             //Team info
@@ -37,6 +37,13 @@ const managerData = () =>
             //Manager Office Number
             type: "input",
             message: "What is the office number for the manager?",
-            name: "teamTitle"
+            name: "managerOfficeNumber"
         },
     ])
+    .then(managerAnswers => {
+        manager = newManager(managerAnswers.managerName, managerAnswers.managerId, managerAnswers.managerEmail, managerAnswers.managerOfficeNumber);
+        teamTitle = managerAnswers.teamTitle;
+        console.log("Now we need to know other employee information.")
+        lesserEmployeeData();
+    });
+}
