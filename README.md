@@ -25,7 +25,7 @@ With this generator I am able to create teams and work flows that make it easy t
 
 ## Installation
 Link to website:
-[Web App Link]()
+https://github.com/mahoward2s/My-Team-Generator
 
 ## Usage 
 The application will prompt the user for information about the team manager and then information about the team members. The user can input any number of team members, and they may be a mix of engineers and interns. When the user has completed building the team, the application will create an HTML file that displays a nicely formatted team roster based on the information provided by the user. 
