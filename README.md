@@ -32,7 +32,6 @@ The application will prompt the user for information about the team manager and 
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-- [License File](./LICENSE.txt)
 
 ## Contributing
 Feel free to fork and improve!
