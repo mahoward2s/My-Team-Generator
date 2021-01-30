@@ -16,6 +16,7 @@
 
 The following animation demonstrates the application functionality:
 
+<iframe src="https://drive.google.com/file/d/1doZvVQATkrNusyuUDhFCd9T-eYt-xXTd/preview" width="640" height="480"></iframe>
 ![GIF Of Functionality](./INSERT GIF HERE)
 
 ## Description
