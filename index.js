@@ -41,7 +41,7 @@ function managerData(){
             type: "input",
             message: "What is the office number for the manager?",
             name: "managerOfficeNumber"
-        },
+        }
     ])
     .then(managerAnswers => {
         manager = new Manager(managerAnswers.managerName, managerAnswers.managerId, managerAnswers.managerEmail, managerAnswers.managerOfficeNumber);
@@ -99,7 +99,7 @@ function otherEmployeeData() {
             type: "confirm",
             message: "Would you like to add another Team Member/Employee?",
             name: "newEmployee"
-        },
+        }
     ])
     .then(answers => {
         if (answers.employeeRole === "Engineer") { 
@@ -124,7 +124,7 @@ function otherEmployeeData() {
 
             var cards = managerCard;
             for (var i = 0; i < teamMembers.length; i++) {
-                var employee = teamMebers[i];
+                var employee = teamMembers[i];
                 cards += renderEmployee(employee);
             }
 
@@ -134,7 +134,7 @@ function otherEmployeeData() {
 
             console.log("The team.html has been generated in output");
         }
-    })
+    });
 }
 function renderEmployee(employee) {
     if (employee.getRole() === "Engineer") {
