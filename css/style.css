@@ -1,3 +1,12 @@
-html, body {
-    background-color: black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+html, body { 
+    font-family: 'Russo One', sans-serif;
+    background-color: rgb(184, 187, 214);
+  }
+
+  .card, .card-body, .list-group, .listgroup-item, .jumbotron {  
+      color: white;
+      opacity: .98;  
+      justify-content: center;
+  }
