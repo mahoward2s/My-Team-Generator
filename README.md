@@ -16,8 +16,7 @@
 
 The following animation demonstrates the application functionality:
 
-<iframe src="https://drive.google.com/file/d/1doZvVQATkrNusyuUDhFCd9T-eYt-xXTd/preview" width="640" height="480"></iframe>
-![GIF Of Functionality](./INSERT GIF HERE)
+![My-Team-Generator](./images/myteamgenerator.gif.gif)
 
 ## Description
 As a manager I wanted to have the ability to create a workflow for my different project teams.   I want easy access to each team member's name, id, and email.   However, depending on their position I would like additional information.  If they are a manager I would like to know their office number.  If they are an engineer on the team I would like to have access to their github.  If they are an intern I would like to know what school they are currently attending.  
