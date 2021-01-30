@@ -59,7 +59,7 @@ function otherEmployeeData() {
             type: "list",
             message: "What is this Team Member/Employee's role?",
             name: "employeeRole",
-            choice: ["Engineer", "Intern"]
+            choices: ["Engineer", "Intern"],
         },
         //user input
         {
